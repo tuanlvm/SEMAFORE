@@ -36,20 +36,25 @@ Arguments:
 	$output_file: output file
 
 Details:
-	+ This implementation needs Algorithm::LBFGS library for quasi-Newton method L-BFGS (Limited-memory Broyden-Fletcher-Goldfarb-Shanno). The library can be downloaded at http://search.cpan.org/~laye/Algorithm-LBFGS-0.16/lib/Algorithm/LBFGS.pm . To install,
+
++ This implementation needs Algorithm::LBFGS library for quasi-Newton method L-BFGS.
+  The library can be downloaded at http://search.cpan.org/~laye/Algorithm-LBFGS-0.16/lib/Algorithm/LBFGS.pm.
+  To install,
 	
-	cpan Algorithm::LBFGS
+	  cpan Algorithm::LBFGS
 	
-	+ If $graph is not passed, SEMAFORE turns into Probabilistic Latent Semantic Visualization (PLSV) (Iwata et al., 2008)
++ If $graph is not passed, SEMAFORE turns into Probabilistic Latent Semantic Visualization (PLSV) (Iwata et al., 2008)
 	
-	+ Example of input data with 2 documents (numbers are ids of words):
-			0 1 1 2 2 3 4 4 5 6 7 7 8 8 8 8 9 10 11 12 13 13 14 14 15 15 15 16 17 18 19 20 20 21 22 23 24 25 25 25 25 25 25 26 27 27 28 29
-			30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 50 51 52 53 54 54 55 56 57 58
++ Example of input data with 3 documents (numbers are ids of words):
+	0 1 1 2 2 3 4 4 5 6 7 7 8 8 8 8 9 10 11 12 13 13 14 14 15 15 15 16
+	17 18 19 20 20 21 22 23 24 25 25 25 25 25 25 26 27 27 28 29
+	30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 50 51 52 53 54 54 55 56 57 58
 			
-	+ Neighborhood graph is represented by a matrix A: NxN where N is the number of documents and A[i,j]=A[j,i] is the weight of the edge ij. For example,
-			0 1 0
-			1 0 1
-			0 1 0
++ Neighborhood graph is represented by a matrix A: NxN. N is the number of documents and A[i,j]=A[j,i] is the weight of the edge ij.
+  For example,
+	0 1 0
+	1 0 1
+	0 1 0
 
 			
 HOW TO CITE
