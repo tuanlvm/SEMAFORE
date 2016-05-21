@@ -1,4 +1,3 @@
-# SEMAFORE
 SEMAFORE: SEmantic visualization with MAniFOld REgularization
 -------------------------------------------------------------
 
@@ -10,17 +9,17 @@ This is an implementation of SEMAFORE - a semantic visualization method from Le 
 Usage:
 
 	perl semafore.pl	--num_topics $num_topics
-						        --dim $dim
-						        --lambda $lambda
-						        --alpha $alpha,
-						        --beta $beta,
-						        --gamma $gamma,
-						        --basis_function $basis_function
-						        --EM_iter $EM_iter,
-						        --Quasi_iter $Quasi_iter
-						        --data $data
-						        --graph $graph
-						        --output_file $output_file
+						--dim $dim
+						--lambda $lambda
+						--alpha $alpha,
+						--beta $beta,
+						--gamma $gamma,
+						--basis_function $basis_function
+						--EM_iter $EM_iter,
+						--Quasi_iter $Quasi_iter
+						--data $data
+						--graph $graph
+						--output_file $output_file
 
 Arguments:
 	$num_topics: number of topics
@@ -85,4 +84,3 @@ BIBLIOGRAPHY
 	year={2008},
 	organization={ACM}
 }
-
