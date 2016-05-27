@@ -29,8 +29,8 @@ Arguments:
 	$beta: covariance for Gaussian prior of topic coordinates (default 0.1*$num_docs)
 	$gamma: covariance for Gaussian prior of document coordinates (default 0.1*$num_topics)
 	$basis_function: 0 for Gaussian, 1 for Student-t (with 1 degree of freedom) (default 0)
-	$EM_iter: number of iterations for EM
-	$Quasi_iter: maximum iterations of Quasi-Newton
+	$EM_iter: number of iterations for EM (default 100)
+	$Quasi_iter: maximum iterations of Quasi-Newton (default 10)
 	$data: input data
 	$graph: neighborhood graph
 	$output_file: output file
