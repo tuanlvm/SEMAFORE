@@ -60,7 +60,7 @@ Details:
 HOW TO CITE
 If you use SEMAFORE for your research, please cite:
 
-  @article{le16a,
+	@article{le16a,
 	    title={Semantic Visualization with Neighborhood Graph Regularization},
 	    author={Le, Tuan MV and Lauw, Hady W},
 	    journal={Journal of Artificial Intelligence Research},
