@@ -61,31 +61,31 @@ HOW TO CITE
 If you use SEMAFORE for your research, please cite:
 
   @article{le16a,
-		title={Semantic Visualization with Neighborhood Graph Regularization},
-		author={Le, Tuan MV and Lauw, Hady W},
-		journal={Journal of Artificial Intelligence Research},
-		volume={55},
-		pages={1091--1133},
-		year={2016}
+	    title={Semantic Visualization with Neighborhood Graph Regularization},
+	    author={Le, Tuan MV and Lauw, Hady W},
+	    journal={Journal of Artificial Intelligence Research},
+	    volume={55},
+	    pages={1091--1133},
+	    year={2016}
 	}
 	
 Or
 
 	@inproceedings{le2014manifold,
-		title={Manifold learning for jointly modeling topic and visualization},
-		author={Le, Tuan MV and Lauw, Hady W},
-		booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
-		year={2014}
+	    title={Manifold learning for jointly modeling topic and visualization},
+	    author={Le, Tuan MV and Lauw, Hady W},
+	    booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+	    year={2014}
 	}	
 
 
 BIBLIOGRAPHY
 
 @inproceedings{iwata2008probabilistic,
-	title={Probabilistic latent semantic visualization: topic model for visualizing documents},
-	author={Iwata, Tomoharu and Yamada, Takeshi and Ueda, Naonori},
-	booktitle={Proceedings of the 14th ACM SIGKDD international conference on Knowledge discovery and data mining},
-	pages={363--371},
-	year={2008},
-	organization={ACM}
+    title={Probabilistic latent semantic visualization: topic model for visualizing documents},
+    author={Iwata, Tomoharu and Yamada, Takeshi and Ueda, Naonori},
+    booktitle={Proceedings of the 14th ACM SIGKDD international conference on Knowledge discovery and data mining},
+    pages={363--371},
+    year={2008},
+    organization={ACM}
 }
